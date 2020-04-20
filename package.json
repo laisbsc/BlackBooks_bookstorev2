@@ -1,0 +1,36 @@
+{
+  "name": "blackbooks_bookstorev2",
+  "version": "1.0.1",
+  "description": "Node.js RESTful CRUD API with Node.js, Express and MongoDB Atlas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisbsc/BlackBooks_bookstorev2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "mongodb",
+    "atlas",
+    "aws",
+    "rest"
+  ],
+  "author": "laisbsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laisbsc/BlackBooks_bookstorev2/issues"
+  },
+  "homepage": "https://github.com/laisbsc/BlackBooks_bookstorev2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  }
+}
