@@ -4,7 +4,7 @@ const cors = require("cors"); //express Middleware to enable CORS w several opti
 const http = require("http"); //HTTP server functionalities
 const path = require('path'); //utilities for working with file and directory path
 const fs = require('fs'); //work with the file system: read and write files back
-const xmlParse = require('xslt-processor').xmlParse; //This module allows us to work with XML files - might not be necessary anymore
+//const xmlParse = require('xslt-processor').xmlParse; //This module allows us to work with XML files - might not be necessary anymore
 //const xsltProcess = require('xslt-processor').xsltProcess; //The same module allows us to utilise XSL Transformations
 //const xml2js = require('xml2js'); //This module does XML to JSON conversion and also allows us to get from JSON back to XML
 
