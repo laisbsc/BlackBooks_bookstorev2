@@ -6,8 +6,8 @@ import { BookstoreService } from 'src/app/services/bookstore.service'
   templateUrl: './add-book.component.html',
   styleUrls: ['./add-book.component.css']
 })
-export class AddBookComponent implements OnInit {
 
+export class AddBookComponent implements OnInit {
   book = {
     theme:'',
     author: '',

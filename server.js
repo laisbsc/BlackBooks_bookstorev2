@@ -12,7 +12,7 @@ const app = express(); // setting the routing to be handled by Express
 let server = http.createServer(app); //This is where our server gets created
 
 let corsOptions = {
-    origin: "http://localhost:8081"
+    origin: "http://localhost:8081/api/blackbooks"
 };
 
 const db = require("./app/models");
@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 require("./app/routes/bookstore.routes")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

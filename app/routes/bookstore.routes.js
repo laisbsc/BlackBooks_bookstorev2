@@ -25,5 +25,5 @@ module.exports = app => {
     //delete all books in the list
     router.delete("/", bookstore.deleteAll);
 
-    app.use('/api/blackbooks', router);
+    app.use('/api/books', router);
 }
