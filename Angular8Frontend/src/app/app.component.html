@@ -1,0 +1,22 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand"></a>
+    <div class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="books" class="nav-link">Books List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="add" class="nav-link">Add Book to Inventory</a>
+      </li>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<h1>My first Angular App</h1>
+
+<app-book-create></app-book-create>
+
